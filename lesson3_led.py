@@ -10,6 +10,10 @@
 #        print the results
 #        if the heat is too high, print a warning
 
+#       Note that print(f"TEXT {} END TEXT") is so that string and integer/float can exist in the same output where we add the inputted 
+#       variable within the {}. Make sure that all the functions like rounding up or calculation to variable is done within the {}
+#        e.g. {round(Variable_Name * 2)}
+
 supply_voltage = float(input("Supply Voltage is (V) "))
 LED_voltage = float(input("LED Voltage is (V) "))
 current_in_mA = float(input("Current is (mA) "))
@@ -30,6 +34,3 @@ else:
         print("Warning, heat too high")
     else: 
         print("No warning")
-
-
-
