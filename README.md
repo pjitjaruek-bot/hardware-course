@@ -16,3 +16,17 @@ Refridgerator ligh
 Sense: Mechanical button
 Think: Is the button pressed or released
 Act: If button is released, turn on the light in the fridge. if not, keep dark.
+
+
+Using EPS32 MicroPython LED Display
+Ran this code:
+
+import time
+
+count = 0
+while True:
+    count = count + 1
+    print("Hello", count)
+    time.sleep(1)
+
+Import Time = imports "time feature" where time.sleep(X) will tell the code to stop looping for a given amount of seconds. 
