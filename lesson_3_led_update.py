@@ -1,3 +1,7 @@
+# while True is paired with again where it allows us to prompt the code to ask for new sets of input to rerun the code
+# Commonly while True is the overarching function for the entire code, hence one indent after while True: for the whole code then closed
+# with again, if condition to break.
+
 standard = [100, 120, 150, 180, 220, 270, 330, 390, 470, 560, 680, 820, 1000,
             1200, 1500, 1800, 2200, 2700, 3300, 3900, 4700, 5600, 6800, 8200]
 
